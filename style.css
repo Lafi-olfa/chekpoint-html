@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+body {
+  background-image: linear-gradient(#e3f2fd, #4dd0e1);
+}
+/* partie hreader*/
+#logo {
+  color: black;
+  text-transform: capitalize;
+  font-size: 30px;
+}
+#logo:hover {
+  color: white;
+  box-shadow: rgb(219, 248, 186) 0px 5px 5px 5px;
+}
+.body {
+  background-color: rgb(245, 225, 229);
+}
+header {
+  background-color: crimson;
+  border-radius: 50px;
+  margin: 20px;
+  box-shadow: rgb(216, 183, 183) 0px 10px 10px 10px;
+  padding: 15px;
+  font-size: 30px;
+  height: 40px;
+}
+
+nav li {
+  list-style: none;
+  font-size: medium;
+  display: inline-block;
+  margin-left: 50px;
+  color: white;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+nav li:hover {
+  color: rgb(20, 15, 15);
+  box-shadow: rgb(219, 248, 186) 0px 5px 5px 5px;
+}
+/* partie home*/
+.title {
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+}
+img {
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+img:hover {
+}
+.home-info {
+  padding: 6px;
+}
+.home-info h3 {
+  text-transform: capitalize;
+  /*text-align: center;*/
+  padding: 6px;
+}
+/* all butouns*/
+.click {
+  border-radius: 20px;
+  border: 2px solid white;
+  width: 90px;
+  color: white;
+  height: 30px;
+
+  background-color: crimson;
+  padding: 2px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.click:hover {
+  color: crimson;
+  background-color: white;
+  border: 2px solid crimson;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+/* partie discover about me*/
+#about {
+  padding: 6px;
+}
+#about .about-info p {
+  font-size: 20px;
+}
+/* my expertises*/
+#ed {
+  color: rgb(228, 59, 59);
+  font-size: 25px;
+  padding: 5px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  /*text-transform: capitalize;*/
+}
+
+#work .education-info ul li {
+  color: black;
+  margin: 15px;
+}
+#span {
+  color: rgb(219, 85, 159);
+  background-color: rgb(221, 203, 190);
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+#span:hover {
+  color: red;
+  background-color: aliceblue;
+}
+
+.project .projects-info dl {
+  margin: 10px;
+  display: inline-block;
+
+  padding: 30px;
+  border: 5px double red;
+  width: 109px;
+  height: 70px;
+}
+.project .projects-info dl:hover {
+  border: 5px double black;
+  color: red;
+}
+
+.project .projects-info dl dt {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+/*contact*/
+#contact .contac-info form dl {
+  padding: 10px;
+}
+#forms {
+  color: red;
+}
+.contact-info {
+}
+.contact-info dt {
+  color: black;
+  margin: 5px;
+  padding: 3px;
+  font-size: 20px;
+}
+.contact-info dt:hover {
+  color: rgb(230, 21, 21);
+}
+.contact-info dd {
+  margin-left: 50px;
+}
+.contact-info dd:hover {
+  margin-left: 50px;
+  color: blue;
+}
